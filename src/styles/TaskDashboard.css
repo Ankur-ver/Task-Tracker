@@ -3,7 +3,6 @@
   padding: 2rem;
   animation: fadeIn 0.7s ease-in-out;
     background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
-    height:95vh;
     z-index:0;
 }
 
