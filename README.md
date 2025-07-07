@@ -23,7 +23,7 @@ A simple yet powerful **Personal Task Tracker** built with **React.js**, featuri
 
 | Login Page | Task Dashboard |
 |------------|----------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](screenshots/login.png) | ![Dashboard](public) |
 
 > Add your own screenshots in a `/screenshots` folder to reflect actual UI.
 
