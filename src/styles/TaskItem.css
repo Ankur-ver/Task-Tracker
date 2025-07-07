@@ -1,0 +1,82 @@
+.task-item {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s;
+  animation: slideIn 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-item.completed {
+  background-color: #e6ffe6;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.task-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.task-actions button:hover {
+  transform: scale(1.2);
+}
+
+.task-item p {
+  margin: 0.5rem 0;
+}
+
+.task-item .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.task-item .priority-high {
+  color: red;
+  font-weight: bold;
+}
+
+.task-item .priority-medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.task-item .priority-low {
+  color: green;
+  font-weight: bold;
+}
+
+.task-item .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.task-item .tag {
+  background-color: #eee;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}

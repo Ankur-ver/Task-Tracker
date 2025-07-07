@@ -1,0 +1,56 @@
+.task-filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.task-filter button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.task-filter button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.task-filter button:hover {
+  background-color: #e6f0ff;
+}
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-10px); opacity: 0; } to { transform: translateY(0); opacity: 1; }
+}
+body.dark .task-form input,
+body.dark .task-form textarea,
+body.dark .task-form select,
+body.dark .task-form button,
+body.dark .task-item,
+body.dark .task-filter button {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-color: #444;
+}
+
+body.dark .task-filter button.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+body.dark .task-item .tag {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .task-item.completed {
+  background-color: #2d4832;
+} 
