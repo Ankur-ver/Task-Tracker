@@ -23,9 +23,9 @@ A simple yet powerful **Personal Task Tracker** built with **React.js**, featuri
 
 | Login Page | Task Dashboard |
 |------------|----------------|
-| ![Login](screenshots/login.png) | ![Dashboard](public) |
+| ![Login](public/Screenshot%2025-07-07%123807) | ![Dashboard](public/Screenshot%202025-07-04%20185621.png)
+) |
 
-> Add your own screenshots in a `/screenshots` folder to reflect actual UI.
 
 ---
 
