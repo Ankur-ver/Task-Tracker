@@ -23,7 +23,7 @@ A simple yet powerful **Personal Task Tracker** built with **React.js**, featuri
 
 | Login Page | Task Dashboard |
 |------------|----------------|
-| ![Login](public/Screenshot%2025-07-07%20123807) | ![Dashboard](public/Screenshot%202025-07-04%20185621.png)
+| ![Login](public/Screenshot%202025-07-07%20123807.png) | ![Dashboard](public/Screenshot%202025-07-04%20185621.png)
 ) |
 
 
